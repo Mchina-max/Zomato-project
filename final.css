@@ -1,0 +1,140 @@
+body{
+
+}
+#top-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    color: white;
+    display:flex;
+
+}
+.nav > li{
+    margin-right: 15px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav > li > a{
+    color: white;
+    text-decoration: none;
+}
+.top-section{  
+    margin-bottom: 25px;
+    background-image: url(./assets/images/top-barner.webp);
+    background-size: cover;
+    width: auto;
+    height: 420px;
+
+}
+
+.top{
+    height: 320px;
+    width: auto;
+    
+    border: 1px solid pink;
+    margin-bottom: 25px;
+    background-image: url(./assets/images/top-barner.webp);
+    background-size: cover;
+}
+.search-bar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-location{
+    input{
+        height: 52px;
+        width: 243px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        margin-right: 0px;
+     }
+}
+ .search-dish{
+    input{
+        height: 52px;
+        width: 400px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-left: 0px;
+     }
+ }
+
+ .top-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top-logo > img{
+    
+    font-weight: 300;
+    font-family: Okra, Helvetica, sans-serif;
+    height: 60px;
+    width: 300px;
+    
+}
+
+#top-description{
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+.app-top{
+    color: white;
+    margin-left: 400px;
+    margin-top: 10px;
+    
+}
+.Top-sub{
+    display: flex;
+    flex-direction: row;
+
+  
+}
+.container{
+    border: 1px solid gray;
+    height: 195px;
+    width: 265px;
+    margin-top: 25px;
+    border-radius: 10px;
+    
+
+}
+.main{
+    width: auto;
+    height: 2000px;
+    margin-left: 356px;
+    margin-right: 356px;
+    margin-bottom: 15px;
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    color: rgb(252, 252, 252);
+   
+}
+
+.container > img{
+    height: 120px;
+    width: inherit;
+    overflow: hidden;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    
+}
+
+.container > p {
+    color: black;
+
+}
+.collections{
+    height: 200px;
+    width: 340px;
+    background-color: yellow;
+}
